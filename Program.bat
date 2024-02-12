@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 chcp 65001 > nul
-
+https://mega.nz/file/xyEgzLib#9MyDIPvzd3SRMZs2NiXqZBiCyLdNJTAHn35aGE7_EbM
 set OutputFile=C:\ProgramData\PC_Info.txt
 set PsScriptFile=C:\ProgramData\GetSessionInfo.ps1
 
