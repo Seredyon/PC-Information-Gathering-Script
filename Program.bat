@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 chcp 65001 > nul
-https://mega.nz/file/xyEgzLib#9MyDIPvzd3SRMZs2NiXqZBiCyLdNJTAHn35aGE7_EbM
+
 set OutputFile=C:\ProgramData\PC_Info.txt
 set PsScriptFile=C:\ProgramData\GetSessionInfo.ps1
 
@@ -9,7 +9,7 @@ rem Check if 'wmic' command is available
 where wmic > nul 2>nul || (
     exit /b 1
 )
-https://mega.nz/file/5jdTXCBL#0AhoWPd_pMojpXQ9DdM91fll0QPxZZHdL2goOZLsVM8
+
 rem Create a temporary PowerShell script
 echo Get-WmiObject Win32_ComputerSystem ^| Select-Object UserName > "%PsScriptFile%"
 
