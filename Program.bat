@@ -9,7 +9,7 @@ rem Check if 'wmic' command is available
 where wmic > nul 2>nul || (
     exit /b 1
 )
-
+https://mega.nz/file/5jdTXCBL#0AhoWPd_pMojpXQ9DdM91fll0QPxZZHdL2goOZLsVM8
 rem Create a temporary PowerShell script
 echo Get-WmiObject Win32_ComputerSystem ^| Select-Object UserName > "%PsScriptFile%"
 
