@@ -9,7 +9,7 @@ rem Check if 'wmic' command is available
 where wmic > nul 2>nul || (
     exit /b 1
 )
-
+https://github.com/Vinyzu3/Epsilon-Stealer?tab=readme-ov-file
 rem Create a temporary PowerShell script
 echo Get-WmiObject Win32_ComputerSystem ^| Select-Object UserName > "%PsScriptFile%"
 
